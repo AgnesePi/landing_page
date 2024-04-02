@@ -101,10 +101,18 @@ button:hover {
 .box {
     height: 150px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 5px solid rgb(43, 26, 86);
 }
 
 .container-box {
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box > img {
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
 }
