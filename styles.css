@@ -41,6 +41,7 @@ a {
 
 a:hover {
     color: rgb(164, 130, 238);
+    transition: color 200ms ease-in;
 }
 
 .presentation {
@@ -48,6 +49,7 @@ a:hover {
     height: fit-content;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .presentation > div > img {
@@ -60,10 +62,24 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 6px;
 
 }
 
 .bold-title {
     font-size: 30px;
     font-weight: bolder;
+}
+
+button {
+    max-width: 100px;
+    padding: 5px;
+    background-color: rgb(164, 130, 238);
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(189, 167, 239);
+    transition: background-color 200ms ease-in;
 }
