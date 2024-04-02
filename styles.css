@@ -50,11 +50,14 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
 }
 
 .presentation > div > img {
     width: 300px;
     height: auto;
+    border-radius: 15px;
 }
 
 .title-section {
@@ -107,8 +110,10 @@ button:hover {
 
 .container-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .box > img {
@@ -130,8 +135,22 @@ button:hover {
     justify-content: center;
 }
 
-.container-box{
+.container-quote {
+    background-color:rgb(189, 167, 239);
+    height: fit-content;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
+.container-quote > .quote {
+    padding: 30px;
+    font-weight: lighter;
+    font-size:larger;
+    justify-content: center;
+}
+.cit {
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
