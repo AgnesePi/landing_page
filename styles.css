@@ -76,7 +76,6 @@ a:hover {
 }
 
 button {
-    max-width: 100px;
     padding: 5px;
     background-color: rgb(164, 130, 238);
     border: none;
@@ -153,4 +152,21 @@ button:hover {
     justify-content: right;
     padding-right: 100px;
     padding-bottom: 20px;
+}
+.call-to-action-container {
+    padding:40px;
+}
+.call-to-action {
+    background-color: rgb(43, 26, 86);
+    border-radius: 20px;
+    color: beige;
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.call-to-action > span {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
