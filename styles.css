@@ -116,3 +116,21 @@ button:hover {
     width: inherit;
     border-radius: 10px;
 }
+
+.container-descriptions {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.small-title {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
