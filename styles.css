@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(46, 24, 102);
+    background-color: rgb(43, 26, 86);
 }
 #logo {
     height: 5rem;
@@ -35,7 +35,7 @@ header > div {
 }
 
 a {
-    color:white;
+    color:beige;
     text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .presentation {
-    background-color:rgb(46, 24, 102);
+    background-color:rgb(43, 26, 86);
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -52,4 +52,18 @@ a:hover {
 
 .presentation > div > img {
     height: 300px;
+}
+
+.title-section {
+    color:beige;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bold-title {
+    font-size: 30px;
+    font-weight: bolder;
 }
